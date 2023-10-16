@@ -5,22 +5,29 @@ p {
 button {
   padding: 5px 10px 5px 10px;
   margin: 10px;
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+input::placeholder {
+  color: black;
 }
 
 .App {
   font-family: sans-serif;
   text-align: center;
-  font-size: 2rem;
-}
-
-.count {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .date {
   margin-top: 40px;
+}
+
+.slider-parent {
+  position: relative;
 }
 
 .step {
@@ -29,3 +36,12 @@ button {
   justify-content: center;
   margin: 0px;
 }
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+}
+input::placeholder {
+  color: black;
+} */
